@@ -1,0 +1,45 @@
+{
+  "name": "webui",
+  "version": "0.1.1",
+  "readme": "README.md",
+  "scripts": {
+    "start": "npm run build && node start.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lint:fix": "vue-cli-service lint --fix",
+    "test": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "finalhandler": "^1.2.0",
+    "serve-static": "^1.15.0",
+    "vue": "^3.2.45",
+    "vue-class-component": "^8.0.0-rc.1",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.13",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "@vue/cli": "~5.0.8",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-plugin-typescript": "~5.0.8",
+    "@vue/cli-plugin-unit-mocha": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "@vue/test-utils": "^2.2.6",
+    "@vue/tsconfig": "^0.1.3",
+    "chai": "^4.3.7",
+    "eslint": "^8.29.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "prettier": "^2.8.1",
+    "typescript": "~4.9.4"
+  },
+  "_id": "webui@0.1.1"
+}

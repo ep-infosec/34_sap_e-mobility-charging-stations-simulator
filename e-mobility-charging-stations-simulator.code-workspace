@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "ui/web"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "sonarsource.sonarlint-vscode"
+    ]
+  },
+  "settings": {
+    "sonarlint.connectedMode.project": {
+      "connectionId": "sap-1",
+      "projectKey": "SAP_e-mobility-charging-stations-simulator"
+    }
+  }
+}
